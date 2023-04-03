@@ -1,0 +1,40 @@
+body {
+ background-color: rgb(217, 255, 217);
+ height: 100%;
+ width: 100%;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+}
+
+   
+.contenedor{
+    background-color: rgb(24, 212, 236);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 300px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px 1px rgba(2, 2, 10, 0.5);
+    
+}
+
+.contenedor .cajaTexto{
+    border-radius: 2%;
+    border: 2px;
+    padding: 15px;
+    text-align: justify;
+}
+
+
+.contenedor .boton1{
+    background-color: rgb(176, 176, 233);
+    border: none;
+}
+
+.contenedor .boton2{
+    background-color: rgb(250, 250, 255);
+    border: none;
+    
+}
